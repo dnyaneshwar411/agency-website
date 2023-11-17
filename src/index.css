@@ -110,6 +110,12 @@ nav {
   justify-content: space-between;
 }
 
+nav img {
+  width: 40px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
 nav svg {
   display: none;
 }

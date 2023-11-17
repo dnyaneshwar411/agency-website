@@ -10,6 +10,7 @@ import showReel from '/assets/showreel.jpeg'
 import facebook from '/assets/brands/facebook.svg'
 import instagram from '/assets/brands/instagram.svg'
 import twitter from '/assets/brands/twitter.svg'
+import brandIcon from '/assets/icon.png'
 import { useEffect, useRef, useState } from "react"
 
 function App() {
@@ -56,7 +57,7 @@ function App() {
     <>
       <header>
         <nav className="flex">
-          {/* <NavLink to='/'><div>BRAND</div></NavLink> */}
+          <NavLink to='/'><img src={brandIcon} alt="" /></NavLink>
           {/* <ul className="flex">
             <NavLink to='/'><li>our work</li></NavLink>
             <NavLink to='/'><li>contact</li></NavLink>
